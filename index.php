@@ -35,7 +35,7 @@ function test_input($data) {
 }
 ?>
 
-<h2>Cisco Metacloud Pivotal Cloud Foundry Webinar Registration Site</h2>
+<h2>Cisco Pivotal Cloud Foundry Webinar Registration Site</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
   First Name: <input type="text" name="fname">
   Last Name: <input type="text" name="lname">
@@ -83,7 +83,7 @@ if(isset($_POST['submit']))
   // use actual sendgrid username and password in this section
   $url = 'https://api.sendgrid.com/'; 
   $user = 'biharper'; // place SG username here
-  $pass = 'MetacloudSE1'; // place SG password here
+  $pass = 'Metaclouddemo1'; // place SG password here
   // grabs HTML form's post data; if you customize the form.html parameters then you will need to reference their new new names here
   $fname = $_POST['fname'];
   $lname = $_POST['lname'];
